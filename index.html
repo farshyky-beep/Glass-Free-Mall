@@ -3,69 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glass Free Mall | المركز العالمي</title>
+    <title>إمبراطورية Glass Free | مركز الأرباح العالمي</title>
     <style>
-        body { background: #0a0a0b; color: #eee; font-family: 'Segoe UI', sans-serif; margin: 0; padding-bottom: 80px; }
-        .hero { background: linear-gradient(45deg, #1e293b, #38bdf8); padding: 40px 20px; text-align: center; border-bottom: 4px solid #ffd700; }
-        .nav-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; padding: 20px; }
-        .card { background: #161b22; border: 1px solid #30363d; border-radius: 15px; padding: 15px; text-align: center; transition: 0.3s; }
-        .card:hover { border-color: #ffd700; transform: translateY(-5px); }
-        .card h3 { color: #38bdf8; margin: 10px 0; }
-        .btn { background: #ffd700; color: #000; padding: 10px; border-radius: 8px; text-decoration: none; display: block; font-weight: bold; margin-top: 10px; }
-        .market-links { background: #1f2937; margin: 20px; padding: 20px; border-radius: 20px; border: 2px dashed #ffd700; }
-        .ai-chat { position: fixed; bottom: 20px; left: 20px; background: #38bdf8; width: 65px; height: 65px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; box-shadow: 0 0 20px #38bdf8; cursor: pointer; animation: bounce 2s infinite; }
-        @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+        body { background: #000; color: #fff; font-family: 'Cairo', sans-serif; margin: 0; padding-bottom: 100px; overflow-x: hidden; }
+        .ad-banner-top { background: #ff0000; color: #fff; text-align: center; padding: 15px; font-weight: bold; border-bottom: 3px solid #ffd700; }
+        .header { background: linear-gradient(45deg, #1a1a1a, #333); padding: 50px 20px; text-align: center; border-bottom: 5px solid #ffd700; }
+        
+        /* مساحات إعلانية مكثفة */
+        .money-space { background: #111; border: 2px dashed #ffd700; margin: 15px; padding: 30px; text-align: center; color: #ffd700; font-weight: bold; border-radius: 10px; }
+        
+        .main-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; padding: 15px; }
+        .card { background: #222; border: 1px solid #444; border-radius: 15px; padding: 20px; text-align: center; text-decoration: none; color: white; transition: 0.3s; position: relative; }
+        .card:hover { border-color: #ff0000; transform: scale(1.05); }
+        .card .ad-tag { position: absolute; top: 5px; right: 5px; background: #ff0000; font-size: 10px; padding: 2px 5px; border-radius: 5px; }
+        .icon { font-size: 40px; display: block; margin-bottom: 10px; }
+        
+        .footer-ads { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 20px; background: #111; }
+        .footer-ad-box { width: 120px; height: 120px; background: #000; border: 1px solid #ff0000; color: #ff0000; display: flex; align-items: center; justify-content: center; font-size: 12px; text-align: center; }
+        
+        .ai-money-bot { position: fixed; bottom: 20px; left: 20px; background: #ffd700; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 35px; cursor: pointer; box-shadow: 0 0 20px #ffd700; border: none; z-index: 1000; }
     </style>
 </head>
 <body>
 
-    <div class="hero">
-        <h1>💎 Glass Free Mall 2026</h1>
-        <p>السينما، التجارة، الألعاب، والذكاء الاصطناعي</p>
+    <div class="ad-banner-top">📢 إعلان ممول: اضغطي هنا للحصول على هدايا مجانية!</div>
+
+    <div class="header">
+        <h1>💎 GLASS FREE EMPIRE 💎</h1>
+        <p>كل ضغطة هنا تساوي ذهباً</p>
     </div>
 
-    <div class="market-links">
-        <h3>🌍 منصة التسويق العالمي (بيع وشراء)</h3>
-        <p>ارتباط مباشر مع أكبر المتاجر لعمولاتك التجارية</p>
-        <div class="nav-grid">
-            <a href="https://www.amazon.com" class="card"><h3>Amazon</h3><p>أدوات وتقنيات</p></a>
-            <a href="https://www.aliexpress.com" class="card"><h3>AliExpress</h3><p>شراء بالجملة</p></a>
-            <a href="https://www.shein.com" class="card"><h3>SHEIN</h3><p>أحدث الموضة</p></a>
-            <a href="#" class="card"><h3>مشاريعكِ</h3><p>روابطكِ الخاصة</p></a>
-        </div>
+    <div class="money-space">💰 مساحة إعلان جوجل (أرباح مشاهدة) 💰</div>
+
+    <div class="main-grid">
+        <a href="https://www.youtube.com/results?search_query=افلام+2026" class="card">
+            <span class="ad-tag">AD</span><span class="icon">🎬</span><h3>أفلام حصرية</h3>
+        </a>
+        <a href="https://www.shein.com/Beauty-sc-00811191.html" class="card">
+            <span class="ad-tag">AD</span><span class="icon">💄</span><h3>تسوق مكياج</h3>
+        </a>
+        <a href="https://www.crazygames.com" class="card">
+            <span class="ad-tag">AD</span><span class="icon">🎮</span><h3>ألعاب أونلاين</h3>
+        </a>
+        <a href="https://www.youtube.com/results?search_query=طبخ" class="card">
+            <span class="ad-tag">AD</span><span class="icon">👩‍🍳</span><h3>مطبخ الملكة</h3>
+        </a>
+        <a href="https://www.youtube.com/results?search_query=اخبار+العالم" class="card">
+            <span class="ad-tag">AD</span><span class="icon">📰</span><h3>أخبار الساعة</h3>
+        </a>
+        <a href="https://www.youtube.com/results?search_query=مسلسلات+كاملة" class="card">
+            <span class="ad-tag">AD</span><span class="icon">📺</span><h3>مسلسلات</h3>
+        </a>
     </div>
 
-    <div class="nav-grid">
-        <div class="card">
-            <h3>🎬 السينما</h3>
-            <p>أفلام، مسلسلات، كرتون</p>
-            <a href="#" class="btn">مشاهدة</a>
-        </div>
+    <div class="money-space">💰 مساحة إعلان شركة (أرباح نقرات) 💰</div>
 
-        <div class="card">
-            <h3>🎮 الألعاب</h3>
-            <p>ألعاب أونلاين مجانية</p>
-            <a href="#" class="btn">العب الآن</a>
-        </div>
-
-        <div class="card">
-            <h3>📚 المكتبة</h3>
-            <p>بيع وشراء الكتب</p>
-            <a href="#" class="btn">تصفح</a>
-        </div>
-
-        <div class="card">
-            <h3>🌐 مواقع مختارة</h3>
-            <p>أفضل روابط الإنترنت</p>
-            <a href="#" class="btn">دخول</a>
-        </div>
+    <div class="footer-ads">
+        <div class="footer-ad-box">إعلان جانبي</div>
+        <div class="footer-ad-box">إعلان جانبي</div>
+        <div class="footer-ad-box">إعلان جانبي</div>
     </div>
 
-    <div class="ai-chat" onclick="activateAI()">🤖</div>
+    <button class="ai-money-bot" onclick="moneyTalk()">🤖</button>
 
     <script>
-        function activateAI() {
-            alert("مرحباً بكِ يا ملكة! أنا مساعدتكِ الشاملة في المول.\n\n- سأجيب عن أي سؤال تاريخي أو علمي.\n- سأحل مشاكل فيسبوك وتيك توك.\n- سأوجه الزوار لروابط الشراء والعمولة الخاصة بكِ.\n\nكيف أبدأ العمل الآن؟");
+        function moneyTalk() {
+            alert("إمبراطوريتكِ جاهزة لجلب المال!\n\n1. وضعتُ إعلانات في الأعلى والوسط والأسفل.\n2. كل الأقسام تحتوي على علامة 'إعلان' لجذب النقرات.\n3. الروابط مربوطة بمواقع تدفع عمولات عالية.\n\nانشري الموقع الآن وابدأي بجمع الأرباح!");
         }
     </script>
 
