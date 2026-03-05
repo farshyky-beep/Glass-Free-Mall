@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز تسوق خالٍ من الزجاج</title>
+    <style>
+        body { background-color: #0a0a0a; color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; }
+        .header { background: linear-gradient(45deg, #1e293b, #38bdf8); padding: 30px; text-align: center; border-bottom: 3px solid #ffd700; }
+        .container { padding: 20px; }
+        .section { background: #161b22; border: 1px solid #30363d; border-radius: 15px; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        .section h2 { color: #38bdf8; border-bottom: 1px solid #38bdf8; padding-bottom: 10px; }
+        .btn { background: #ffd700; color: #000; padding: 12px 25px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 10px; }
+        .ai-assistant { position: fixed; bottom: 30px; left: 30px; background: #38bdf8; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; box-shadow: 0 0 20px #38bdf8; cursor: pointer; animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.1); } 100% { transform: scale(1); } }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>💎 Glass Free Mall</h1>
+        <p>مرحباً بكِ في أول مول ترفيهي ذكي لعام 2026</p>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>🎬 سينما الزجاج والرسوم المتحركة</h2>
+            <p>أحدث الأفلام العالمية والمسلسلات والكرتون. شاهد الآن مجاناً!</p>
+            <a href="#" class="btn">دخول السينما</a>
+        </div>
+
+        <div class="section">
+            <h2>⚽ ركن الرياضة المباشر</h2>
+            <p>نتائج المباريات، أخبار اللاعبين، وتريندات تيك توك الرياضية.</p>
+            <a href="#" class="btn">نتائج حية</a>
+        </div>
+
+        <div class="section">
+            <h2>📚 المكتبة الملكية والألعاب</h2>
+            <p>كتب رقمية حصرية وألعاب خفيفة تعمل مباشرة على هاتفك.</p>
+            <a href="#" class="btn">تصفح المكتبة</a>
+        </div>
+    </div>
+
+    <div class="ai-assistant" onclick="speakWithVisitor()">🤖</div>
+
+    <script>
+        function speakWithVisitor() {
+            alert("أهلاً بك في مول الملكة! أنا مساعدتك الذكية. يمكنني الإجابة عن أي سؤال حول فيسبوك، يوتيوب، أو مساعدتك في اختيار فيلم السهرة. كيف أخدمك اليوم؟");
+        }
+    </script>
+
+</body>
+</html>
